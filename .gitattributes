@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore the heavy stuff
+data/
+models/*.pt (if over 100MB)
+.venv/
+__pycache__/
